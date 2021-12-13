@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 
-export interface PeriodicElement {
+export interface ExamElement {
   name: string;
   position: number;
   data: string;
@@ -9,7 +9,7 @@ export interface PeriodicElement {
   teachers: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+const ELEMENT_DATA: ExamElement[] = [
   {
     position: 1,
     name: 'IRPUB Global Economic Governance',
