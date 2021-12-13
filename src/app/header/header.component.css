@@ -1,0 +1,12 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #FFFFFF;
+}
+
