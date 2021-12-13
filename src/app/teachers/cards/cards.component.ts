@@ -6,35 +6,41 @@ import { Component } from '@angular/core';
 export interface CardElement {
   title: string;
   description: string;
-  buttonText: string;
+  phone: number;
   img: string;
 }
 
 const ELEMENT_DATA: CardElement [] = [
   {
-    title: 'Card Title 1',
-    description: 'Some quick example text to build on the card title and make up the bulk of the card content',
-    buttonText: 'Button',
+    title: 'Mark Spencer',
+    description: 'PhD',
+    phone: 123123123,
     img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
   },
   {
-    title: 'Card Title 2',
-    description: 'Some quick example text to build on the card title and make up the bulk of the card content',
-    buttonText: 'Button',
+    title: 'Wiliam Rudolf',
+    description: 'BSc',
+    phone: 123123124,
     img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
   },
   {
-    title: 'Card Title 3',
-    description: 'Some quick example text to build on the card title and make up the bulk of the card content',
-    buttonText: 'Button',
+    title: 'Ben Hur',
+    description: 'BA',
+    phone: 123123125,
     img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
   },
   {
-    title: 'Card Title 4',
-    description: 'Some quick example text to build on the card title and make up the bulk of the card content',
-    buttonText: 'Button',
+    title: 'Alice Werk',
+    description: 'PhD',
+    phone: 123123126,
     img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
   },
+  {
+    title: 'John Doe',
+    description: 'BSc',
+    phone: 123123127,
+    img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+  }
 
 ];
 

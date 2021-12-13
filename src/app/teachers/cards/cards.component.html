@@ -1,17 +1,23 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-3 mx-auto my-5" *ngFor="let card of cards">
+    <div class="col-md-4 mx-auto my-5" *ngFor="let card of cards">
       <mat-card>
         <img mat-card-image src="card.img" alt="Card image cap"/>
         
         <mat-card-content>
+         
+          <mat-card-subtitle>
+            <h3>{{card.description}}</h3>
+          </mat-card-subtitle> 
+          
           <mat-card-title>
-            <h4>{{card.title}}</h4>
+            {{card.title}}
           </mat-card-title>
 
-          <mat-card-title>
-            {{card.description}}
-          </mat-card-title>
+          <mat-card-subtitle>
+            <h3>phone: {{card.phone}}</h3>
+          </mat-card-subtitle> 
+
         </mat-card-content>
       </mat-card>
     </div>
