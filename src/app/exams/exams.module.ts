@@ -8,6 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 
 
 
+
 @NgModule({
   declarations: [
     ExamsComponent,
@@ -16,7 +17,8 @@ import { MatInputModule } from '@angular/material/input';
   imports: [
     CommonModule,
     SharedModule,
-    MatInputModule
+    MatInputModule,
+
     
   ],
   exports: [ExamsComponent]
