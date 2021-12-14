@@ -47,17 +47,17 @@ const ELEMENT_DATA: ExamElement[] = [
   },
   {
     position: 6,
-    name: 'IE International Economics,',
+    name: 'IE International Economics',
     data: '01/02/2022',
     type: 'oral',
     teachers: 'Ben Hur',
   },
   {
     position: 7,
-    name: 'IE International Economics,',
+    name: 'IE International Economics',
     data: '04/02/2022',
     type: 'written',
-    teachers: 'Ben Hur',
+    teachers: 'James Balensiefen',
   },
   {
     position: 8,

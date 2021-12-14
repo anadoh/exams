@@ -12,34 +12,40 @@ export interface CardElement {
 
 const ELEMENT_DATA: CardElement [] = [
   {
-    title: 'Mark Spencer',
-    description: 'PhD',
+    title: 'PhD Mark Spencer',
+    description: 'IRPUB Global Economic',
     phone: 123123123,
-    img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+    img: './assets/img/markspencer.png'
   },
   {
-    title: 'Wiliam Rudolf',
-    description: 'BSc',
+    title: 'BSc Wiliam Rudolf',
+    description: 'IRPUB Global Economic Governance',
     phone: 123123124,
-    img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+    img: './assets/img/wiliamrudolf.png'
   },
   {
-    title: 'Ben Hur',
-    description: 'BA',
+    title: 'BA Ben Hur',
+    description: 'IE International Economics',
     phone: 123123125,
-    img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+    img: './assets/img/benhur.png'
   },
   {
-    title: 'Alice Werk',
-    description: 'PhD',
+    title: 'PhD Alice Werk',
+    description: 'ISAD Migration and Development',
     phone: 123123126,
-    img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+    img: './assets/img/alicewerk.png'
   },
   {
-    title: 'John Doe',
-    description: 'BSc',
+    title: 'BSc John Doe',
+    description: 'IRPUB Global Economic Governance',
     phone: 123123127,
-    img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
+    img: './assets/img/johndoe.png'
+  },
+  {
+    title: 'BSc James Balensiefen',
+    description: 'IE International Economics',
+    phone: 678123127,
+    img: './assets/img/jamesbalensiefen.png'
   }
 
 ];
