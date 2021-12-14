@@ -1,6 +1,8 @@
-.router {
-    min-width: 1366px;
-    height: 85vh;
+.app {
+  width: 1366px;
+  margin: 0 auto;
 }
 
-
+main {
+    min-height: 85vh;
+}

@@ -80,12 +80,11 @@ const ELEMENT_DATA: ExamElement[] = [
   templateUrl: './schedule.component.html',
   styleUrls: ['./schedule.component.css'],
 })
-
 export class ScheduleComponent {
   displayedColumns: string[] = ['position', 'name', 'data', 'type', 'teachers'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
- 
-  constructor () {
+
+  constructor() {
     this.dataSource.filterPredicate = function (data, filter: string): boolean {
       return (
         data.name.toLowerCase().includes(filter) ||
