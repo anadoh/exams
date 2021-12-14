@@ -4,7 +4,7 @@
 
 Simple aplication for finding information about exams at studies. 
 The user will be able to read the information needed to take the exam.
-A table with a list of available exam dates, filterable by subject name and exam type 
+A table with a list of available exam dates, filterable by subject name and exam type. 
 Cards presenting photos of teachers and their contact details.
 
 ## Technologies
